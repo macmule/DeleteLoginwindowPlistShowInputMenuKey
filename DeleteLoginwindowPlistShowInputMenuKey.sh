@@ -3,7 +3,7 @@
 #
 # More information: 
 #
-# GitRepo: 
+# GitRepo: https://github.com/macmule/DeleteLoginwindowPlistShowInputMenuKey
 #
 # License: http://macmule.com/license/
 #
