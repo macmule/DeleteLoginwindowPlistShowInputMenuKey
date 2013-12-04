@@ -25,17 +25,17 @@ do
 		
 	else
 	
-	# If showInputMenu key in /Users/"$userFolders"/Library/Preferences/com.apple.loginwindow.plist exists...
+		# If showInputMenu key in /Users/"$userFolders"/Library/Preferences/com.apple.loginwindow.plist exists...
 	
-	# Delete the showInputMenu key from the loginwindow plist
-	sudo defaults delete /Users/"$userFolders"/Library/Preferences/com.apple.loginwindow showInputMenu
-	echo "Deleted showInputMenu key from /Users/"$userFolders"/Library/Preferences/com.apple.loginwindow.plist..."
+		# Delete the showInputMenu key from the loginwindow plist
+		sudo defaults delete /Users/"$userFolders"/Library/Preferences/com.apple.loginwindow showInputMenu
+		echo "Deleted showInputMenu key from /Users/"$userFolders"/Library/Preferences/com.apple.loginwindow.plist..."
 	
-	# Make the users whose homefolder the plist is located the owner of the file
-	sudo chown "$userFolders" /Users/"$userFolders"/Library/Preferences/com.apple.loginwindow.plist
-	echo "Made "$userFolders" owner of the file /Users/"$userFolders"/Library/Preferences/com.apple.loginwindow.plist..."
+		# Make the users whose homefolder the plist is located the owner of the file
+		sudo chown "$userFolders" /Users/"$userFolders"/Library/Preferences/com.apple.loginwindow.plist
+		echo "Made "$userFolders" owner of the file /Users/"$userFolders"/Library/Preferences/com.apple.loginwindow.plist..."
 	
-	echo ""
+		echo ""
 	fi
 	
 done
