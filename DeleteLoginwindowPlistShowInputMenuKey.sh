@@ -1,7 +1,7 @@
 #!/bin/sh
 ####################################################################################################
 #
-# More information: 
+# More information: http://macmule.com/2013/12/20/beachball-when-coming-out-of-sleep-or-when-deactivating-the-screen-saver
 #
 # GitRepo: https://github.com/macmule/DeleteLoginwindowPlistShowInputMenuKey
 #
